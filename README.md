@@ -2,6 +2,21 @@
 
 Image available on [Docker hub](https://hub.docker.com/r/timee98642/classify-news-app)
 
+## Repo structure
+```
+├── app/
+│   ├── model/
+│   │   ├── classify_news_pipeline-0.1.0.pkl
+│   │   ├── df_file.csv
+│   │   ├── model-dev.ipynb
+│   │   └── model.py
+│   └── main.py
+├── .dockerignore
+├── .gitignore
+├── Dockerfile
+└── requirements.txt
+```
+
 ## Building the API locally
 
 Step 0: `git clone https://github.com/divakaivan/classify-news-app.git` in your terminal
@@ -42,20 +57,5 @@ Click on POST a dropdown will open, and on the right side click on `Try it out`
 Click on `Execute`, and below is the response
 
 ![image](https://github.com/divakaivan/classify-news-app/assets/54508530/1498311c-2460-483e-97d5-252e9cddbf7a)
-
-## Repo structure
-```
-├── app/
-│   ├── model/
-│   │   ├── classify_news_pipeline-0.1.0.pkl
-│   │   ├── df_file.csv
-│   │   ├── model-dev.ipynb
-│   │   └── model.py
-│   └── main.py
-├── .dockerignore
-├── .gitignore
-├── Dockerfile
-└── requirements.txt
-```
 
 Props to AssemblyAI for the [tutorial](https://youtu.be/h5wLuVDr0oc)
