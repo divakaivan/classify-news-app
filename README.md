@@ -42,3 +42,5 @@ Click on POST a dropdown will open, and on the right side click on `Try it out`
 Click on `Execute`, and below is the response
 
 ![image](https://github.com/divakaivan/classify-news-app/assets/54508530/1498311c-2460-483e-97d5-252e9cddbf7a)
+
+Props to AssemblyAI for the [tutorial](https://youtu.be/h5wLuVDr0oc)
